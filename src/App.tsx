@@ -1,4 +1,5 @@
 import React from 'react';
+import { CdsButton } from '@cds/react/button';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <CdsButton>My Button</CdsButton>
       </header>
     </div>
   );
